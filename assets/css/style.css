@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* inicio*/
+
+
+.navegador {
+    width: 100%;
+    height: 60px;
+    background-color: #5DE2FC;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+}
+
+.mainIndex{
+  background-color: #F2FDFF;
+}
+
+.indexPresentacion{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 60px;
+}
+
+.home{
+    width: 90px;
+    margin: 10px;
+    left: 20px;
+    position: absolute;
+}
+
+.presentacion {
+    width: 500px;
+    height: 500px;
+}
+
+
+.bienvenida {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #F2FDFF;
+    position: relative;
+    left: 50px;
+}
+
+.headerIndex{
+    display: flex;
+    justify-content: center;
+    background-color: #F2FDFF;
+}
+
+.tituloInicio{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    position: relative;
+    left: 200px; 
+}
+
+/* contactos*/
+form{
+    width: 50%;
+}
+textarea{
+    width: 250px;
+    height: 100px;
+}
+
+.sinPuntos {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul > li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.navegador li {
+    display: inline-block;
+}
+
+.sinPuntos > ul > li {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.mainApariciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    row-gap: 10px;
+    background-color: #F2FDFF;
+}
+
+.tarjetaApariciones {
+    width: 600px;
+    border: solid 1px;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #F2FDFF;
+}
+
+
+form{
+    padding: 10px;
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: #F2FDFF;
+}
+
+fieldset{
+    border-radius: 10px;
+}
+
+/*personajes*/
+
+.mainPersonajes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #F2FDFF;
+}
+
+footer{
+    display: flex;
+    align-content: flex-end;
+    background-color: #5DE2FC;
+    height: 100px;
+}
+
+/*galeria*/
+
+.mainGaleria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.imgGaleria{
+    width: 300px;
+    height: 300px;
+}
+.imgGaleria 
+
+/*productos*/
+
+.mainProductos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #F2FDFF;
+    
+}
+
+.tarjetaProductos {
+    width: 300px;
+    border: solid 2px;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #F2FDFF;
+}
+
+.tarjetaProductos__img {
+    width: 100%;
+    width: 200px;
+}
+
+.tarjetaProductos__tit {
+    margin: 10px;
+    text-align: center;
+}
+
+.tarjetaProductos__desc {
+    margin: 10px;
+    text-align: center;
+}
