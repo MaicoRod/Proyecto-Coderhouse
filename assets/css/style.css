@@ -192,15 +192,17 @@ footer{
 .tarjetaProductos {
     width: 300px;
     border: solid 2px;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    background-color: #F2FDFF;
+    background-color: #FF8E7D;
+    border-color: #5DE2FC;
 }
 
 .tarjetaProductos__img {
-    width: 100%;
     width: 200px;
+    height: 200px;
+    margin: 40px;
 }
 
 .tarjetaProductos__tit {
