@@ -175,7 +175,12 @@ footer{
 .imgGaleria{
     width: 400px;
     height: 400px;
+    transition: 0.5s;
 } 
+
+.imgGaleria:hover{
+    transform: scale(1.5);
+}
 
 /*productos*/
 
@@ -191,12 +196,18 @@ footer{
 
 .tarjetaProductos {
     width: 300px;
-    border: solid 2px;
+    border: solid 1px;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
     background-color: #FF8E7D;
     border-color: #5DE2FC;
+    transition: 0.5s;
+
+}
+
+.tarjetaProductos:hover{
+    transform: scale(1.5);
 }
 
 .tarjetaProductos__img {
