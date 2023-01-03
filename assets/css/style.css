@@ -17,6 +17,40 @@
     flex-direction: row-reverse;
 }
 
+nav > .fa-bars{
+    display: none;
+}
+
+@media(max-width:412px){
+    nav > .fa-bars{
+        display: block;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .navegador > ul{
+        position: fixed;
+        flex-direction: column;
+        background-color: #5DE2FC;
+        width: 200px;
+        height: 100vh;
+        justify-content: start;
+        padding-top: 60px;
+        align-items: center;
+        right: -1000px;
+        transition: 0.2s;
+    }
+    .navegador > .fa-bars:hover + ul {
+        right: 0;
+    }
+    .navegador > ul:hover {
+        right: 0;
+    }
+    .home{
+        position: absolute;
+    }
+
+}
+
 nav > ul > li > a{
     text-decoration: none;
 }
