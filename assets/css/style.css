@@ -102,7 +102,19 @@ nav > .fa-bars{
         flex-direction: column-reverse;
     }
 
-    
+    .tarjetaApariciones{
+        width: 300px;
+        height: 300px;
+    }
+    iframe{
+        width: 300px;
+        height: 250px;
+        padding-left: 50px;
+    }
+
+    .textApar{
+        text-align: center;
+    }
 }
 
 nav > ul > li > a{
