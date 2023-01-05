@@ -101,6 +101,8 @@ nav > .fa-bars{
     .mainIndex{
         flex-direction: column-reverse;
     }
+
+    
 }
 
 nav > ul > li > a{
