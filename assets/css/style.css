@@ -62,6 +62,47 @@ nav > .fa-bars{
     }
 }
 
+@media(max-width:768px){
+    nav > .fa-bars{
+        display: block;
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .navegador > ul{
+        flex-direction: column;
+        position: absolute;
+        background-color: #5DE2FC;
+        width: 200px;
+        height: 100vh;
+        justify-content: start;
+        padding-top: 60px;
+        align-items: center;
+        right: -250px;
+        transition: 0.2s;
+    }
+
+    .navegador > .fa-bars:hover + ul {
+        right: 0;
+    }
+
+    .navegador > ul:hover {
+        right: 0;
+    }
+
+    .home{
+        position: absolute;
+    }
+    
+    .indexPresentacion{
+        flex-wrap: wrap-reverse;
+    }
+
+    .mainIndex{
+        flex-direction: column-reverse;
+    }
+}
+
 nav > ul > li > a{
     text-decoration: none;
 }
