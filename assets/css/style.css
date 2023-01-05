@@ -60,6 +60,12 @@ nav > .fa-bars{
     .mainIndex{
         flex-direction: column-reverse;
     }
+
+    iframe{
+        width: 300px;
+        height: 250px;
+        padding-left: 50px;
+    }
 }
 
 @media(max-width:768px){
@@ -106,15 +112,20 @@ nav > .fa-bars{
         width: 300px;
         height: 300px;
     }
-    iframe{
-        width: 300px;
-        height: 250px;
-        padding-left: 50px;
-    }
-
+    
     .textApar{
         text-align: center;
     }
+
+    .mainApariciones{
+        align-items: center;
+    }
+
+    iframe{
+        height: 250px;
+    }
+
+
 }
 
 nav > ul > li > a{
