@@ -27,6 +27,7 @@ nav > .fa-bars{
         font-size: 30px;
         margin: 20px;
     }
+
     .navegador > ul{
         flex-direction: column;
         position: absolute;
@@ -39,14 +40,24 @@ nav > .fa-bars{
         right: -250px;
         transition: 0.2s;
     }
+
     .navegador > .fa-bars:hover + ul {
         right: 0;
     }
+
     .navegador > ul:hover {
         right: 0;
     }
+
     .home{
         position: absolute;
+    }
+    
+    .presentacion{
+    }
+
+    .mainIndex{
+        flex-direction: column-reverse;
     }
 }
 
@@ -62,9 +73,9 @@ nav > ul > li > a{
 
 .indexPresentacion{
     display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
     justify-content: space-evenly;
-    position: relative;
-    right: 60px;
 }
 
 .home{
@@ -77,6 +88,8 @@ nav > ul > li > a{
 .presentacion {
     width: 400px;
     height: 400px;
+    padding-bottom: 30px;
+    padding-right: 5px;
 }
 
 
@@ -84,22 +97,15 @@ nav > ul > li > a{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     padding: 20px;
-    margin-top: 20px;
-    background-color: #F2FDFF;
-    position: relative;
-    left: 50px;
-}
-
-.headerIndex{
-    display: flex;
-    justify-content: center;
+    margin: 20px;
     background-color: #F2FDFF;
 }
 
 .tituloInicio{
     font-family: 'Open Sans', sans-serif;
     font-size: 50px;
-    padding-left: 600px; 
+    padding-left: 40px;
+    margin-top: 10px;
 }
 
 /* contactos*/
