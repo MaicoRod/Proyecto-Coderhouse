@@ -124,8 +124,6 @@ nav > .fa-bars{
     iframe{
         height: 250px;
     }
-
-
 }
 
 nav > ul > li > a{
@@ -135,7 +133,7 @@ nav > ul > li > a{
 .mainIndex{
   display: flex;
   flex-direction: column;  
-  background-color: #F2FDFF;
+  background-image: url(../img/stitchportada.jpg);
 }
 
 .indexPresentacion{
@@ -164,7 +162,18 @@ nav > ul > li > a{
     font-size: 20px;
     padding: 20px;
     margin: 20px;
-    background-color: #F2FDFF;
+    color: #F2FDFF;
+}
+
+.mensaje{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+aside{
+    height: 100px;
+    background-color: #76D7F8;
 }
 
 .tituloInicio{
@@ -172,6 +181,7 @@ nav > ul > li > a{
     font-size: 50px;
     padding-left: 40px;
     margin-top: 10px;
+    color: #F2FDFF;
 }
 
 /* contactos*/
@@ -267,10 +277,8 @@ fieldset{
 }
 
 footer{
-    display: flex;
-    align-content: flex-end;
     background-color: #5DE2FC;
-    height: 100px;
+    height: 200px;
 }
 
 /*galeria*/
@@ -335,3 +343,4 @@ footer{
     margin: 10px;
     text-align: center;
 }
+
